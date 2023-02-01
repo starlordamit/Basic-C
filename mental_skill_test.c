@@ -7,8 +7,7 @@ int main() {
     int a,b;
     char sym;
     scanf("%d %d",&a,&b);
-    scanf("%c",&sym);
-    
+    scanf("\n%c",&sym);
     switch(sym){
         case('+'):
             printf("%d",abs(a+b));
